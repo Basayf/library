@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
+.card {
+    height: 350px;
+    width: 300px;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 30px;
+    background-color: rgb(250, 215, 224);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+.title {
+    width: 200px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.author {
+    width: 200px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.pages {
+    width: 200px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.status {
+    width: 200px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
+.id {
+    width: 200px;
+    height: 30px;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+}
