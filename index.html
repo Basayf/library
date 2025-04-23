@@ -3,13 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Odin's Library</title>
 </head>
 <body>
-    <div class="container" id="container">
-
+    <div id="pageHeader">
+        <div id="pageTitle">Odin's Library</div>
+        <button id="addBookButton">Add Books</button>
     </div>
-    <script src="script.js"></script>
+    <div id="container"></div>
+    <dialog id="dialog">
+        <form id="form">
+            <label for="bookTitle">Title:</label>
+            <input id="bookTitle" type="text">
+            <label for="bookAuthor">Author:</label>
+            <input id="bookAuthor" type="text">
+            <label for="bookPages">Pages:</label>
+            <input id="bookPages" type="number">
+        </form>
+    </dialog>
+    <script src="./script.js"></script>
 </body>
 </html>
